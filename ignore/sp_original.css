@@ -1,0 +1,707 @@
+@media screen and (min-width: 0px) and (max-width: 375px) {
+	
+h1 {
+	font-size: 1.8rem;
+	line-height: 2.25;
+}
+h2 {
+	font-size: 1.5rem;
+}
+.p-pc {
+	display: none;
+}
+.br-pc {
+	display: none;
+}
+.br-sp {
+	display: inline-block;
+}
+.inner {
+	width:100%;
+	overflow:hidden;
+}	
+
+/*header*/
+header {
+	height: 6.1813rem;
+}
+header .container {
+	padding: 0;
+}
+header .header-left {
+	padding: 0.75rem 0.95rem;
+}
+header .header-left img {
+	width: 9.0rem;
+	position: absolute;
+	top: 2.5rem;
+	left: 0.95rem;
+}
+header .header-left p {
+	float: left;
+	font-size: 1.0rem;
+	letter-spacing: 0;
+}
+header .header-right a.application-btn-pc {
+	display: none;
+}
+header .header-right a.application-btn-sp {
+	display: block;
+	padding: 0.9rem 1.1rem 0.9rem;
+	background: #da6b64;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+header .header-right a.application-btn-sp img {
+	display: block;
+	width: 2.0rem;
+	margin: 0 auto; 
+}
+header .header-right a.application-btn-sp p {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+/*/#instruction/*/
+#instruction {
+	background: url(../img/main.jpg) no-repeat;
+  	background-size: auto;
+}
+#instruction .container {
+    padding-top: calc(2.2rem + 5.9813rem);
+    padding-bottom: 3.3rem;
+}
+#instruction h1 {
+	line-height: 1.6;
+}
+#instruction img {
+	width: 82.95%;
+	margin: 2.0rem 0 4.0rem 0.65rem ;
+}
+
+/*/#main-call-to-action/*/
+#main-call-to-action {
+	max-width: 37.5rem;
+	padding: 0 0 1.2rem;	
+}
+#main-call-to-action h2 {
+	padding-top: 1.5rem;
+	padding-bottom: 0.9rem;
+}
+#main-call-to-action .span span {
+	font-size: 1.35rem;
+}
+#main-call-to-action > a {
+ 	width: 89.33333%;
+	margin-top: 2.5rem;
+	margin-bottom: 1.3rem;
+	padding: 1.5rem 0;
+	border-radius: 5.0rem;	
+}
+#main-call-to-action > a h1 {
+	font-size: 2.0rem;
+	line-height: 1.6;
+	letter-spacing: 0;
+}
+#main-call-to-action p {
+	padding: 1.3rem 0;
+	font-size: 1.5rem;
+	letter-spacing: 0;
+}
+#main-call-to-action .snss {
+    margin: 0.25rem 7.75rem;
+    padding: 1.1rem 0;
+}
+
+/*/#incentive/*/
+#incentive {
+	padding: 1.5rem 0 8.5rem;	
+}
+#incentive h1 {
+    margin: 4.0rem 0;
+}
+#incentive h2 {
+	letter-spacing: 0;
+}
+#incentive h2 + h2 {
+    margin-top: 3.0rem;
+}
+
+/*/#about/*/
+#about {
+	padding: 5.5rem 0 0.34722%;
+}
+#about .about {
+    width: 6.0rem;
+    height: 6.0rem;
+    font-size: 1.2rem;
+    line-height: 6.0rem;
+	position: absolute;
+	top: -3.0rem;
+}
+#about h1 {
+	margin: 3.5rem 0;
+	line-height: 2.25;
+}
+#about .skills {
+    margin: 3.0rem 2.0rem 6.9rem;
+    padding: 0.75rem 1.0rem 1.1rem;
+}
+#about .skills .flex {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#about .skills h2 {
+    margin: 0.25rem 0 1.0rem;
+}
+#about .skills .skill {
+	display: inline-block;
+	padding: 0.5rem;
+}
+#about .skills .skill img.skill-image {
+	width: 27.5%;
+}
+#about .skills .skill img.sales-image {
+	width: 33.5%;
+}
+#about .skills .skill img.document-image {
+	width: 25.5%;
+}
+#about .skills .skill img.plusone-image {
+	width: 33.5%;
+}
+#about .skills .skill img.connection-image {
+	width: 60.5%;
+}
+#about .skills .skill p {
+	width: 100%;
+	margin-top: 1.0rem;
+	margin-bottom: 1.0rem;
+	font-size: 1.0rem; 
+	font-weight: 300;
+	text-align: center;
+}
+/*/#steps/*/
+#steps {
+	padding: 3.5rem 0;
+}
+#steps h1 {
+	padding: 1.5rem 0;
+	line-height: 1.15;
+}
+#steps .container {
+    padding: 0;
+	padding-bottom: 8.4rem;
+}
+#steps .container h2 {
+	padding: 0.5rem 0;
+	font-size: 1.3rem;
+	letter-spacing: 0;
+}
+}
+#steps .container .flex{
+	flex-direction: column;
+	margin-top: 2.5rem;
+}
+#steps .step .step-number,
+#steps .step .step-term,
+#steps .step .step-content {
+	padding: 0.23rem 0;
+	font-size: 1.2rem;
+}
+#steps .step {
+    width: 84.0%;
+	margin: 0 auto;    
+    margin-bottom: 1.53rem;
+    padding: 0.25rem 0 1.25rem;
+}
+#steps .step:last-of-type {
+	margin: 0 auto;    
+    margin-bottom: 1.53rem;
+    padding: 0.275rem 0 1.275rem;
+}
+#steps .step .step-number {
+	width: 68.25397%;
+	margin: 1.2rem auto 1.32rem;
+	padding: 0;
+}
+#steps .step .step-term {
+	letter-spacing: 0;
+}
+#steps .steps-bottom h2 {
+	padding: 1.15rem 0;
+	font-size: 1.2rem;
+}
+
+/*/#learnings/*/
+#learnings {
+	padding: 0.3rem 0 1.0rem;
+}
+#learnings h1 {
+	margin: 3.725rem 0 3.7rem;
+}
+#learnings h1 span {
+	font-size: 1.2rem;
+}
+#learnings h2 {
+	margin: 0.6rem 0;
+}
+
+#learnings .flex {
+	margin: 1.5rem 6.0rem;
+}
+#learnings .learning {
+	width: 5.62rem;
+	height: 5.62rem;
+}
+#learnings p {
+	margin: 2.0rem 0; 
+    font-size: 1.2rem;
+}
+
+/*/#advantages/*/
+#advantages .lead-message {
+	margin: 5.2rem 0 2.25rem;
+}
+#advantages .lead-message h2 {
+	line-height: 1.4;
+}
+#advantages .lead-message h1 {
+	padding: 0.75rem 0;
+}
+#advantages .flex {
+	width: 34.5rem;
+	margin: 0 auto;		
+	flex-direction: column;
+}
+#advantages .advantage {
+	margin-bottom: 1.8rem;
+}
+#advantages .advantage img {
+	width: 100%;
+	height: 12.0rem;
+	object-fit: cover;
+}
+#advantages .advantage h2 {
+	margin: 1.0rem 0 0.8rem;
+	text-align: center;
+}
+#advantages .advantage p {
+	padding: 0 2.0rem;
+	font-size: 1.2rem;
+}
+#advantages .add-advantage {
+	width: 33.5rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+    padding: 0.4rem 1.0rem 1.0rem;
+}
+#advantages .add-advantage h1 {
+}
+#advantages .add-advantage h2 {
+	font-size: 1.5rem;
+	margin: 0.4rem 0;
+}
+#advantages .add-advantage p {
+	margin: 1.0rem 0;
+	font-size: 1.0rem;
+	letter-spacing: 0;
+}
+#advantages .note {
+	padding: 1.5rem 0.5rem 3.35rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+}
+
+/*/#members/*/
+#members {
+	padding-top: 3.2rem;	
+	padding-bottom: 2.0rem;	
+}
+#members h1 {
+	margin: 3.2rem 0;
+}
+#members > p {
+	margin-bottom: 13.0rem; 	
+	font-size: 1.2rem;
+}
+#members .flex {
+	margin: 0;
+	flex-direction: column;
+}
+#members .member {
+	width: 94.66667%;
+	margin: 0 auto;
+	padding: 4.05rem 1.05rem 1.0rem 0.95rem;
+}
+#members .member:first-of-type {
+	padding-bottom: 1.0rem;
+}
+#members .member:not(:last-of-type) {
+	margin-bottom: 12.0rem;
+}
+#members .member img {
+	width: 12.0rem;
+	position: absolute;
+	top: -8.75rem;
+}
+#members .member img.ajust {
+	margin-left: 0;
+}
+#members .member .background,
+#members .member .name,
+#members .member .self-introduction {
+	font-size: 1.2rem;
+}
+
+/*/#voices/*/
+#voices {
+	/*padding: 0.5rem 0 0.5rem;*/
+}
+#voices .voices-top {
+	padding: 2.0rem 0 2.9rem;
+}
+#voices .voices-top .qa {
+    width: 6.0rem;
+    height: 6.0rem;
+	margin-bottom: 2.0rem; 
+    font-size: 1.2rem;
+    line-height: 6.0rem;
+}
+#voices .voices-top h1 {
+    font-size: 1.4rem;
+    line-height: 2.86;
+}
+#voices .voices-top:after {
+    border: 15px solid transparent;
+    border-top: 15px solid #ebb94d;
+    position: absolute;
+    bottom: -31px;
+}
+#voices .voices-content {
+	margin: 1.4rem 1.0rem 4.2rem;
+}
+#voices .voices-content > p:not(.note) {
+	margin: 0.4rem 0;
+    font-size: 1.2rem;
+}
+#voices .voices-content .note {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+	margin: 3.2rem 0 2.5rem;
+}
+#voices .voices-content .voice {
+	margin-bottom: 3.8rem;
+}
+#voices .voices-content .voice:nth-of-type(2) {
+	margin-bottom: 2.2rem;
+}
+#voices .voices-content .voice img {
+	width: 10.25rem;
+	height: 10.4rem;
+	margin-top: 0.5rem;
+	margin-right: 1.57rem;
+	margin-bottom: 3.0rem;
+}
+#voices .voices-content .voice p {
+	font-size: 1.4rem;
+	padding-top: 0; 
+}
+#voices .voices-content .voice p + p {
+	font-size: 1.2rem;
+	letter-spacing: 0.145rem;
+}
+
+/*/#learnig-details/*/
+#learnig-details {
+	padding-top: 4.0rem;	
+}
+#learnig-details > p {
+	margin: 1.0rem 0; 	
+	font-size: 1.2rem;
+}
+#learnig-details .learnig-detail {
+    width: 35.5rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+#learnig-details .learnig-detail p {
+	font-size: 1.2rem;
+}
+#learnig-details .learnig-detail-wrapper {
+    padding: 2.0rem 0 10.0rem;
+}
+#learnig-details .learnig-details-bottom {
+    padding: 2.0rem 0;
+ }
+
+/*/#flows/*/
+#flows {
+	padding: 1.0rem 0 5.25rem;
+}
+#flows .container {
+	margin: 0 1.5rem 1.31944%;
+}
+#flows h1 {
+    margin: 3.0rem 0;
+}
+#flows .container .flows-chart,
+#flows .container > img {
+	display: none;
+}
+#flows .flow {
+	margin-bottom: 0.4rem;
+	border-radius: 0.2rem;	
+}
+#flows .flow .flex,
+#flows .flow:last-of-type .flex {	
+    margin: 0.9rem 1.4rem 2.5rem 1.4rem;
+	display: block;
+}
+#flows .flow .flex .flow-title {
+	width: 100%;
+	margin-bottom: 2.5rem;
+    padding-top: 0rem;
+}
+#flows .flow .flex .flow-title img {
+	display: inline-block;
+	width: 3.5rem;
+	height: 3.5rem;
+}
+#flows .flow .flex .flow-title img.img-style {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#flows .flow .flex .flow-title p {
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	margin-left: 0.825rem;
+	display: inline-block;
+	font-size: 1.5rem;
+	color: #000;
+	vertical-align: top;
+	position: relative;
+	top: 0.5rem;
+}
+#flows .flow .flex .flow-content {
+	width: 100%;
+}
+#flows .flow .flex .flow-content p:not(.note) {
+	margin: 1.0rem 0;
+    font-size: 1.2rem;
+}
+#flows .flow .flex .flow-content p span {
+	display: inline;
+	margin: 0;
+}
+#flows .flow .flex .flow-content .note {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
+#flows .flow .flex .flow-content .note + p {
+    margin: 1.0rem 0;
+}
+#flows .flow .flex .flow-content .note.sentence-pc {
+	display: none;
+}
+#flows .flow .flex .flow-content .note.sentence-sp {
+	display: block;
+}
+
+/*/#place/*/
+#place {
+	padding: 0.15rem 0 0.5rem;	
+}
+#place .container {
+	margin: 8.66667% 9.333% 6.8%;
+}
+#place .container h1 {
+	margin: 1.3rem 0;
+	text-align: center;
+}
+#place .container .note {
+	margin: 0 0 2.0rem;
+	font-size: 1.2rem;
+	letter-spacing: 0;
+}
+#place .container p:not(.note) {
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin: 1.0rem 0; 	
+}
+#place .container h2 {
+	margin: 2.0rem 0;
+}
+
+/*/#bonuses/*/
+#bonuses {
+	padding-bottom: 2.0rem;
+}
+#bonuses > h1 {
+    margin: 1.0rem 0; 
+}
+#bonuses > p {
+    font-size: 1.2rem;
+    margin: 2.0rem 0; 
+}
+#bonuses .bonus-wrapper {
+    margin: 7.6rem 1.5rem 0;
+}
+#bonuses .bonus-wrapper h1 {
+	width: 25.0rem;
+	top: -3.1rem;
+	line-height: 1.6;
+}
+#bonuses .bonus-wrapper .flex {
+	flex-direction: column;
+   	margin: 4.5rem 0 2.0rem;
+   	padding: 0 2.9rem;
+}
+#bonuses .bonus-wrapper .flex .bonus {
+	margin-bottom: 3.7rem;
+	display: flex;
+}
+#bonuses .bonus-wrapper .flex .bonus:nth-of-type(2) {
+	margin-bottom: 2.7rem;
+}
+#bonuses .bonus-wrapper .flex .bonus h2 {
+	width: 6.0rem;
+	height: 6.0rem;
+	margin: 0 1.25rem;
+	padding: 0;
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 5.0;
+	text-align: center;
+}
+#bonuses .bonus-wrapper .flex .bonus:first-of-type h2 {
+	/*padding-left: 0.2rem;*/
+}
+#bonuses .bonus-wrapper .flex .bonus h2 {
+	/*padding-left: 0.2rem;*/
+}
+#bonuses .bonus-wrapper .flex .bonus p {
+	width: 20.0rem;
+	margin: 0;
+	padding-top: 1.2rem;
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: left;
+	position: relative;
+	top: 0%;
+	left: 0%;
+	transform: translateX(-0%);
+}
+#bonuses .bonus-wrapper .flex .bonus:first-of-type p {
+	padding-left: 0;
+}
+#bonuses .bonus-wrapper .flex .bonus p.sentence-pc {
+	display: none;
+}
+#bonuses .bonus-wrapper .flex .bonus p.sentence-sp {
+	display: block;
+}
+
+/*/#mission/*/
+#mission {
+	padding: 2.0rem 0 6.0rem;	
+}
+#mission h1 {
+	margin: 2.0rem 0;
+}
+#mission h1:first-of-type {
+	line-height: 1.6;
+}
+#mission h2 {
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+}
+#mission h1:last-of-type {
+	margin: 5.0rem 0 3.0rem;
+}
+
+/*/#message/*/
+#message {
+	padding: 0.5rem 0 4.0rem;	
+}
+#message h1 {
+	margin: 3.5rem 0;
+}
+#message h2 {
+	margin: 1.25rem 0;
+}
+#message .message-wrapper {
+	margin: 0 1.5rem;
+	padding-top: 0.275rem; 	
+}
+#message img.profile-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.0rem;
+}
+#message .message-content {
+	width: 100%;
+}
+#message .message-content p {
+	margin-bottom: 1.0rem;
+}
+#message .message-content p:nth-of-type(3) {
+	padding: 2.2rem 0;
+}
+
+/*/#request/*/
+#request {
+	padding: 4.0rem 0 0.8rem;
+}
+#request p {
+	margin: 2.0rem 0 3.2rem;
+    font-size: 1.2rem;
+}
+#request input {
+	width: 92.0%;
+	margin: 2.5rem auto;
+}
+#request textarea {
+	width: 92.0%;
+}
+#request .submit-btn {
+	width: 92.0%;
+}
+
+/*#questions*/
+#questions {
+	padding: 2.0rem 0 5.4rem;	
+}
+#questions h1 {
+	margin: 2.0rem 0;	
+}
+#questions .question-wrapper  {
+	margin: 0 1.5rem;
+}
+#questions .question dt {
+	font-size: 1.5rem;
+	padding: 1.0rem;
+}
+#questions .question dt i.far {
+	font-size: 1.3rem;
+}
+#questions .question dt i.fas {
+	font-size: 1.3rem;
+}
+#questions .question dd {
+    font-size: 1.2rem;
+	margin-bottom: 0.40rem;
+}
+
+/*/footer/*/
+footer {
+	padding: 2.0rem 0rem 10.6rem 0;
+}
+footer .snss {
+    margin: 0.25rem 7.75rem;
+    padding: 1.1rem 0;
+}
+
+}

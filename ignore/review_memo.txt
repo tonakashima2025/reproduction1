@@ -1,0 +1,70 @@
+html/CSS
+- background: linear-gradient(transparent 70%, #ebb94d 70%);
+- object-fit
+- text-rendering
+- input/button inline-block 変更不可 
+- code
+- 
+- 
+- 
+- 
+- 
+- 
+-
+
+memo
+- padding: X.Xrem auto X.Xremで"invalid property value"のエラー。
+  padding-top: X.Xrem;
+  padding-bottom: X.Xrem;
+  or
+  padding: X.Xrem 0 X.Xrem;
+  で解決
+- 左右配置はposition: relative/absoluteが微調整がしやすい？(ex.header)
+- background-imgにtextを載せる場合は、display: table/table-cell;
+
+
+pandding
+- advantageの画像2つ目のトリミング
+- 大滝　昇平さんのpはなぜ段落違う？
+- 空白でもOKですのOKのフォント
+- ※受講料金は実質０円です。詳しくは資料請求をどうぞ。の空白（sp）
+
+- 資料請求のリンク JSで実現している？
+- バンコクのノマドエンジニア育成講座 の位置
+- #instruction　なぜ15pxのpaddingを取って、margin: -15pxで戻してる？
+- 第５期生：2019年４月8日 ~ 2019年4月27日　＊締め切りました 以下なぞの余白
+
+
+  	
+<!-- - 画像の幅がwidthを超えると、右に空白ができるケースあり("overflow: hidden;"でも解消されない)
+- 縦横比率を維持したまま、コンテンツの幅に合わせて表示させる方法
+  ref: https://blog.looseknot.jp/css/background-image-size.html
+- Chromeのフォントサイズ：
+	xx-small　10
+	x-small	　10
+	small	　13
+	medium	　16
+	large	　18
+	x-large	　24
+	xx-large　32
+- margin、paddingのパーセンテージ指定は、margin、paddingを含めないwidthから算定される
+ -->
+<!-- ??? → 解決 -->
+<!-- - font-weightが一致しない
+	.reasons h2 {
+		font-weight: 300;　(vs: 700)
+	}
+(解決→ -webkit-text-size-adjust: 100%;)
+
+- spanに継承されない
+	.summary .contents-wrap h2 span {
+		color: #c00;
+		/*font-size: inherit;*/
+		/*line-height: inherit;*/
+	}
+(解決→ 理由不明。。。)
+
+- hight: 85px;になる理由
+	.security
+
+
